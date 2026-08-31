@@ -1,4 +1,5 @@
-ok ajao<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,14 +12,14 @@ ok ajao<!DOCTYPE html>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Icons -->
+    <!-- Font Awesome -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,11 +28,22 @@ ok ajao<!DOCTYPE html>
     <!-- ================= PRELOADER ================= -->
 
     <div id="preloader">
+
         <div class="loader-content">
-            <span class="loader-stage loader-welcome">WELCOME</span>
-            <span class="loader-stage loader-intro">HI, I'M <strong>SAMIKSHA PATYAL</strong><span class="loader-cursor">_</span></span>
+
+            <span class="loader-stage loader-welcome">
+                WELCOME
+            </span>
+
+            <span class="loader-stage loader-intro">
+                HI, I'M <strong>SAMIKSHA PATYAL</strong>
+                <span class="loader-cursor">_</span>
+            </span>
+
             <p>AI / ML / CREATIVE CODE</p>
+
         </div>
+
     </div>
 
 
@@ -43,7 +55,8 @@ ok ajao<!DOCTYPE html>
             <span>S</span>P.
         </div>
 
-        <nav>
+        <nav id="navbar">
+
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -51,11 +64,19 @@ ok ajao<!DOCTYPE html>
             <a href="#certificates">Certificates</a>
             <a href="#education">Education</a>
             <a href="#contact">Contact</a>
+
         </nav>
 
         <a href="#contact" class="nav-btn">
-            Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            Let's Talk
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
+
+        <!-- Mobile Menu Button -->
+
+        <button id="menu-btn" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
 
     </header>
 
@@ -64,7 +85,6 @@ ok ajao<!DOCTYPE html>
 
     <section id="home" class="hero">
 
-        <!-- Decorative Elements -->
         <div class="hero-circle circle-one"></div>
         <div class="hero-circle circle-two"></div>
         <div class="hero-dots"></div>
@@ -98,9 +118,15 @@ ok ajao<!DOCTYPE html>
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>
 
-                <a href="s.GenCV.pdf" target="_blank" rel="noopener" class="primary-btn cv-btn" download>
+                <a href="s.GenCV.pdf"
+                    target="_blank"
+                    rel="noopener"
+                    class="primary-btn cv-btn"
+                    download>
+
                     Download CV
                     <i class="fa-solid fa-file-arrow-down"></i>
+
                 </a>
 
                 <a href="#contact" class="secondary-btn">
@@ -109,18 +135,31 @@ ok ajao<!DOCTYPE html>
 
             </div>
 
+
+            <!-- Social Links -->
+
             <div class="hero-socials">
 
-                <a href="https://github.com/SamikshaPatyal/S.portfolio" target="_blank">
+                <a href="https://github.com/SamikshaPatyal/S.portfolio"
+                    target="_blank"
+                    rel="noopener">
+
                     <i class="fa-brands fa-github"></i>
+
                 </a>
 
-                <a href="https://www.linkedin.com/in/samiksha-patyal-88679a379/" target="_blank">
+                <a href="https://www.linkedin.com/in/samiksha-patyal-88679a379/"
+                    target="_blank"
+                    rel="noopener">
+
                     <i class="fa-brands fa-linkedin-in"></i>
+
                 </a>
 
                 <a href="mailto:patyalsamiksha@gmail.com">
+
                     <i class="fa-solid fa-envelope"></i>
+
                 </a>
 
             </div>
@@ -128,13 +167,14 @@ ok ajao<!DOCTYPE html>
         </div>
 
 
-        <!-- Creative Hero Card -->
+        <!-- ================= HERO VISUAL ================= -->
 
         <div class="hero-visual">
 
             <div class="code-window">
 
                 <div class="window-top">
+
                     <div class="window-dots">
                         <span></span>
                         <span></span>
@@ -142,7 +182,9 @@ ok ajao<!DOCTYPE html>
                     </div>
 
                     <p>portfolio.py</p>
+
                 </div>
+
 
                 <div class="code-content">
 
@@ -195,65 +237,90 @@ ok ajao<!DOCTYPE html>
             </div>
 
 
+            <!-- Floating Card 1 -->
+
             <div class="floating-card card-one">
+
                 <i class="fa-solid fa-code"></i>
+
                 <div>
                     <strong>Developer</strong>
                     <small>Creative Coder</small>
                 </div>
+
             </div>
 
 
+            <!-- Floating Card 2 -->
+
             <div class="floating-card card-two">
+
                 <i class="fa-solid fa-brain"></i>
+
                 <div>
                     <strong>AI & ML</strong>
                     <small>Future Builder</small>
                 </div>
+
             </div>
 
 
             <div class="hero-number">
+
                 <span>01</span>
                 <small>Portfolio</small>
+
             </div>
 
         </div>
 
+
+        <!-- Scroll Down -->
+
         <div class="scroll-down">
+
             <span>SCROLL</span>
+
             <i class="fa-solid fa-arrow-down"></i>
+
         </div>
 
     </section>
-    <!-- Animated Background Elements -->
-<div class="floating-shape shape-1"></div>
-<div class="floating-shape shape-2"></div>
-<div class="floating-shape shape-3"></div>
 
-<!-- Hero Slideshow Text -->
-<div class="hero-slider">
-    <div class="slide active">
-        <span>AI & ML DEVELOPER</span>
-    </div>
 
-    <div class="slide">
-        <span>WEB DEVELOPER</span>
-    </div>
+    <!-- ================= ANIMATED BACKGROUND ================= -->
 
-    <div class="slide">
-        <span>PYTHON & C PROGRAMMER</span>
-    </div>
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
 
-    <div class="slide">
-        <span>CREATIVE PROBLEM SOLVER</span>
+
+    <!-- ================= HERO SLIDER ================= -->
+
+    <div class="hero-slider">
+
+        <div class="slide active">
+            <span>AI & ML DEVELOPER</span>
+        </div>
+
+        <div class="slide">
+            <span>WEB DEVELOPER</span>
+        </div>
+
+        <div class="slide">
+            <span>PYTHON & C PROGRAMMER</span>
+        </div>
+
+        <div class="slide">
+            <span>CREATIVE PROBLEM SOLVER</span>
+        </div>
+
     </div>
-</div>
 
 
     <!-- ================= ABOUT ================= -->
 
-    <section id="about" class="section about-section">
+    <section id="about" class="section about-section reveal">
 
         <div class="section-heading">
 
@@ -261,7 +328,11 @@ ok ajao<!DOCTYPE html>
 
             <div>
                 <p class="section-label">ABOUT ME</p>
-                <h2>Turning ideas into <span>digital experiences.</span></h2>
+
+                <h2>
+                    Turning ideas into
+                    <span>digital experiences.</span>
+                </h2>
             </div>
 
         </div>
@@ -270,8 +341,12 @@ ok ajao<!DOCTYPE html>
         <div class="about-grid">
 
             <div class="about-image">
-                <img src="samp.jpeg" alt="Samiksha Patyal">
+
+                <img src="samp.jpeg"
+                    alt="Samiksha Patyal">
+
             </div>
+
 
             <div class="about-text">
 
@@ -292,6 +367,7 @@ ok ajao<!DOCTYPE html>
                     and create projects that are useful, simple and visually
                     engaging.
                 </p>
+
 
                 <div class="about-stats">
 
@@ -315,11 +391,16 @@ ok ajao<!DOCTYPE html>
             </div>
 
 
+            <!-- Profile Card -->
+
             <div class="about-card">
 
                 <div class="about-card-top">
+
                     <span>PROFILE</span>
+
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
                 </div>
 
                 <div class="profile-initial">
@@ -334,19 +415,37 @@ ok ajao<!DOCTYPE html>
 
                 <div class="profile-line"></div>
 
+
                 <div class="profile-info">
+
                     <span>University</span>
-                    <strong>Lovely Professional University</strong>
+
+                    <strong>
+                        Lovely Professional University
+                    </strong>
+
                 </div>
 
+
                 <div class="profile-info">
+
                     <span>Location</span>
-                    <strong>Punjab, India</strong>
+
+                    <strong>
+                        Punjab, India
+                    </strong>
+
                 </div>
 
+
                 <div class="profile-info">
+
                     <span>Focus</span>
-                    <strong>AI • ML • Web Development</strong>
+
+                    <strong>
+                        AI • ML • Web Development
+                    </strong>
+
                 </div>
 
             </div>
@@ -355,23 +454,35 @@ ok ajao<!DOCTYPE html>
 
     </section>
 
+
     <!-- ================= SKILLS ================= -->
 
-    <section id="skills" class="section skills-section">
+    <section id="skills" class="section skills-section reveal">
 
         <div class="section-heading">
 
             <span class="section-number">02</span>
 
             <div>
-                <p class="section-label">MY EXPERTISE</p>
-                <h2>Tools I use to <span>build things.</span></h2>
+
+                <p class="section-label">
+                    MY EXPERTISE
+                </p>
+
+                <h2>
+                    Tools I use to
+                    <span>build things.</span>
+                </h2>
+
             </div>
 
         </div>
 
 
         <div class="skills-grid">
+
+
+            <!-- Programming -->
 
             <div class="skill-card">
 
@@ -382,18 +493,23 @@ ok ajao<!DOCTYPE html>
                 <h3>Programming</h3>
 
                 <p>
-                    Languages I use for problem solving and application development.
+                    Languages I use for problem solving and application
+                    development.
                 </p>
 
                 <div class="skill-tags">
+
                     <span>Python</span>
                     <span>C</span>
                     <span>JavaScript</span>
                     <span>PHP</span>
+
                 </div>
 
             </div>
 
+
+            <!-- Web -->
 
             <div class="skill-card">
 
@@ -408,13 +524,17 @@ ok ajao<!DOCTYPE html>
                 </p>
 
                 <div class="skill-tags">
+
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>JavaScript</span>
+
                 </div>
 
             </div>
 
+
+            <!-- Database -->
 
             <div class="skill-card">
 
@@ -425,18 +545,23 @@ ok ajao<!DOCTYPE html>
                 <h3>Databases & Tools</h3>
 
                 <p>
-                    Working with databases, version control and development tools.
+                    Working with databases, version control and development
+                    tools.
                 </p>
 
                 <div class="skill-tags">
+
                     <span>MySQL</span>
                     <span>MongoDB</span>
                     <span>Git</span>
                     <span>GitHub</span>
+
                 </div>
 
             </div>
 
+
+            <!-- Other -->
 
             <div class="skill-card">
 
@@ -451,10 +576,12 @@ ok ajao<!DOCTYPE html>
                 </p>
 
                 <div class="skill-tags">
+
                     <span>Figma</span>
                     <span>Problem Solving</span>
                     <span>Teamwork</span>
                     <span>Time Management</span>
+
                 </div>
 
             </div>
@@ -466,15 +593,23 @@ ok ajao<!DOCTYPE html>
 
     <!-- ================= PROJECTS ================= -->
 
-    <section id="projects" class="section projects-section">
+    <section id="projects" class="section projects-section reveal">
 
         <div class="section-heading">
 
             <span class="section-number">03</span>
 
             <div>
-                <p class="section-label">MY PROJECTS</p>
-                <h2>Things I've <span>built.</span></h2>
+
+                <p class="section-label">
+                    MY PROJECTS
+                </p>
+
+                <h2>
+                    Things I've
+                    <span>built.</span>
+                </h2>
+
             </div>
 
         </div>
@@ -487,6 +622,7 @@ ok ajao<!DOCTYPE html>
             <div class="project-number">
                 01
             </div>
+
 
             <div class="project-info">
 
@@ -505,31 +641,45 @@ ok ajao<!DOCTYPE html>
                     activates warning mechanisms.
                 </p>
 
+
                 <div class="project-tech">
+
                     <span>Arduino</span>
                     <span>MQ-6 Sensor</span>
                     <span>Embedded C</span>
                     <span>Buzzer</span>
                     <span>Relay Module</span>
                     <span>IoT</span>
+
                 </div>
 
+
                 <ul>
+
                     <li>Automatic gas leakage detection</li>
                     <li>Buzzer and LED warning mechanism</li>
                     <li>Relay-based exhaust fan control</li>
                     <li>Optional IoT alerts for mobile devices</li>
                     <li>Low-cost and user-friendly design</li>
+
                 </ul>
 
-                <a href="https://github.com/SamikshaPatyal/S.portfolio" target="_blank"
+
+                <a href="https://github.com/SamikshaPatyal/S.portfolio"
+                    target="_blank"
+                    rel="noopener"
                     class="project-link">
+
                     View on GitHub
+
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
                 </a>
 
             </div>
 
+
+            <!-- Project Visual -->
 
             <div class="project-visual">
 
@@ -542,6 +692,7 @@ ok ajao<!DOCTYPE html>
                     <div class="circuit-line line-a"></div>
                     <div class="circuit-line line-b"></div>
                     <div class="circuit-line line-c"></div>
+
 
                     <div class="circuit-node node-a">
                         <i class="fa-solid fa-wind"></i>
@@ -557,6 +708,7 @@ ok ajao<!DOCTYPE html>
 
                 </div>
 
+
                 <span class="visual-label">
                     SMART SAFETY SYSTEM
                 </span>
@@ -566,21 +718,28 @@ ok ajao<!DOCTYPE html>
         </div>
 
 
-        <!-- Project Cards -->
+        <!-- Mini Projects -->
 
         <div class="mini-projects">
+
 
             <div class="mini-project">
 
                 <span>02</span>
 
                 <div>
+
                     <p>WEB DEVELOPMENT</p>
-                    <h3>Personal Portfolio</h3>
+
+                    <h3>
+                        Personal Portfolio
+                    </h3>
+
                     <p>
                         Responsive portfolio website designed using
                         HTML, CSS and JavaScript.
                     </p>
+
                 </div>
 
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -593,12 +752,18 @@ ok ajao<!DOCTYPE html>
                 <span>03</span>
 
                 <div>
+
                     <p>PROGRAMMING</p>
-                    <h3>Programming Projects</h3>
+
+                    <h3>
+                        Programming Projects
+                    </h3>
+
                     <p>
                         Collection of programming and problem-solving
                         projects created while learning C and Python.
                     </p>
+
                 </div>
 
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -612,15 +777,23 @@ ok ajao<!DOCTYPE html>
 
     <!-- ================= CERTIFICATES ================= -->
 
-    <section id="certificates" class="section certificate-section">
+    <section id="certificates" class="section certificate-section reveal">
 
         <div class="section-heading">
 
             <span class="section-number">04</span>
 
             <div>
-                <p class="section-label">CERTIFICATIONS</p>
-                <h2>Learning never <span>stops.</span></h2>
+
+                <p class="section-label">
+                    CERTIFICATIONS
+                </p>
+
+                <h2>
+                    Learning never
+                    <span>stops.</span>
+                </h2>
+
             </div>
 
         </div>
@@ -628,124 +801,207 @@ ok ajao<!DOCTYPE html>
 
         <div class="certificate-grid">
 
+
+            <!-- Certificate 1 -->
+
             <div class="certificate-card">
 
-                <img class="certificate-image" src="certificate 1.png" alt="Saylor Academy certificate for CS105: Introduction to Python">
+                <img class="certificate-image"
+                    src="certificate 1.png"
+                    alt="Saylor Academy Python certificate">
 
                 <div class="certificate-top">
+
                     <span>01</span>
+
                     <i class="fa-solid fa-certificate"></i>
+
                 </div>
 
-                <h3>CS105: Introduction to Python</h3>
+                <h3>
+                    CS105: Introduction to Python
+                </h3>
 
-                <p>Saylor Academy</p>
+                <p>
+                    Saylor Academy
+                </p>
 
                 <span class="certificate-date">
                     January 27, 2026
                 </span>
 
-                <a href="certificate 1.png" target="_blank" rel="noopener" class="certificate-link">
+                <a href="certificate 1.png"
+                    target="_blank"
+                    rel="noopener"
+                    class="certificate-link">
+
                     View Certificate
                     <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
             </div>
 
 
+            <!-- Certificate 2 -->
+
             <div class="certificate-card">
 
-                <img class="certificate-image" src="certificate 2.png" alt="Infosys Springboard certificate for Programming Fundamentals using Python - Part 1">
+                <img class="certificate-image"
+                    src="certificate 2.png"
+                    alt="Infosys Python certificate">
 
                 <div class="certificate-top">
+
                     <span>02</span>
+
                     <i class="fa-solid fa-certificate"></i>
+
                 </div>
 
-                <h3>Programming Fundamentals using Python - Part 1</h3>
+                <h3>
+                    Programming Fundamentals using Python - Part 1
+                </h3>
 
-                <p>Infosys Springboard</p>
+                <p>
+                    Infosys Springboard
+                </p>
 
                 <span class="certificate-date">
                     July 21, 2026
                 </span>
 
-                <a href="certificate 2.png" target="_blank" rel="noopener" class="certificate-link">
+                <a href="certificate 2.png"
+                    target="_blank"
+                    rel="noopener"
+                    class="certificate-link">
+
                     View Certificate
                     <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
             </div>
 
 
+            <!-- Certificate 3 -->
+
             <div class="certificate-card">
 
-                <img class="certificate-image" src="certificate 3.png" alt="Infosys Springboard certificate for Programming Fundamentals using Python - Part 2">
+                <img class="certificate-image"
+                    src="certificate 3.png"
+                    alt="Infosys Python certificate">
 
                 <div class="certificate-top">
+
                     <span>03</span>
+
                     <i class="fa-solid fa-certificate"></i>
+
                 </div>
 
-                <h3>Programming Fundamentals using Python - Part 2</h3>
+                <h3>
+                    Programming Fundamentals using Python - Part 2
+                </h3>
 
-                <p>Infosys Springboard</p>
+                <p>
+                    Infosys Springboard
+                </p>
 
                 <span class="certificate-date">
                     July 21, 2026
                 </span>
 
-                <a href="certificate 3.png" target="_blank" rel="noopener" class="certificate-link">
+                <a href="certificate 3.png"
+                    target="_blank"
+                    rel="noopener"
+                    class="certificate-link">
+
                     View Certificate
                     <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
             </div>
 
 
+            <!-- Certificate 4 -->
+
             <div class="certificate-card">
 
-                <img class="certificate-image" src="certificate 4.png" alt="Learn Foundation Online certificate for Indian Laws: Know Your Rights">
+                <img class="certificate-image"
+                    src="certificate 4.png"
+                    alt="Indian Laws certificate">
 
                 <div class="certificate-top">
+
                     <span>04</span>
+
                     <i class="fa-solid fa-certificate"></i>
+
                 </div>
 
-                <h3>Indian Laws: Know Your Rights</h3>
+                <h3>
+                    Indian Laws: Know Your Rights
+                </h3>
 
-                <p>Learn Foundation Online</p>
+                <p>
+                    Learn Foundation Online
+                </p>
 
                 <span class="certificate-date">
                     October 25, 2025
                 </span>
 
-                <a href="certificate 4.png" target="_blank" rel="noopener" class="certificate-link">
+                <a href="certificate 4.png"
+                    target="_blank"
+                    rel="noopener"
+                    class="certificate-link">
+
                     View Certificate
                     <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
             </div>
 
 
+            <!-- Certificate 5 -->
+
             <div class="certificate-card certificate-document">
 
-                <img class="certificate-image" src="c certificate.png" alt="C programming certificate">
+                <img class="certificate-image"
+                    src="c certificate.png"
+                    alt="C programming certificate">
 
                 <div class="certificate-top">
+
                     <span>05</span>
+
                     <i class="fa-solid fa-certificate"></i>
+
                 </div>
 
-                <h3>C Programming Certificate</h3>
+                <h3>
+                    C Programming Certificate
+                </h3>
 
-                <p>Programming Certificate</p>
+                <p>
+                    Programming Certificate
+                </p>
 
-                <span class="certificate-date">Certificate PDF</span>
+                <span class="certificate-date">
+                    Certificate PDF
+                </span>
 
-                <a href="c certificate.pdf" target="_blank" rel="noopener" class="certificate-link">
+                <a href="c certificate.pdf"
+                    target="_blank"
+                    rel="noopener"
+                    class="certificate-link">
+
                     View Certificate
                     <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
             </div>
@@ -757,21 +1013,32 @@ ok ajao<!DOCTYPE html>
 
     <!-- ================= EDUCATION ================= -->
 
-    <section id="education" class="section education-section">
+    <section id="education" class="section education-section reveal">
 
         <div class="section-heading">
 
             <span class="section-number">05</span>
 
             <div>
-                <p class="section-label">EDUCATION</p>
-                <h2>My academic <span>journey.</span></h2>
+
+                <p class="section-label">
+                    EDUCATION
+                </p>
+
+                <h2>
+                    My academic
+                    <span>journey.</span>
+                </h2>
+
             </div>
 
         </div>
 
 
         <div class="timeline">
+
+
+            <!-- University -->
 
             <div class="timeline-item current">
 
@@ -783,7 +1050,9 @@ ok ajao<!DOCTYPE html>
 
                 <div class="timeline-content">
 
-                    <span>Bachelor's Degree</span>
+                    <span>
+                        Bachelor's Degree
+                    </span>
 
                     <h3>
                         Lovely Professional University
@@ -807,6 +1076,8 @@ ok ajao<!DOCTYPE html>
             </div>
 
 
+            <!-- Higher Secondary -->
+
             <div class="timeline-item">
 
                 <div class="timeline-dot"></div>
@@ -817,9 +1088,13 @@ ok ajao<!DOCTYPE html>
 
                 <div class="timeline-content">
 
-                    <span>Higher Secondary Education</span>
+                    <span>
+                        Higher Secondary Education
+                    </span>
 
-                    <h3>GMSSS Kangoo</h3>
+                    <h3>
+                        GMSSS Kangoo
+                    </h3>
 
                     <p>
                         Higher Secondary Education
@@ -834,6 +1109,8 @@ ok ajao<!DOCTYPE html>
             </div>
 
 
+            <!-- Secondary -->
+
             <div class="timeline-item">
 
                 <div class="timeline-dot"></div>
@@ -844,9 +1121,13 @@ ok ajao<!DOCTYPE html>
 
                 <div class="timeline-content">
 
-                    <span>Secondary Education</span>
+                    <span>
+                        Secondary Education
+                    </span>
 
-                    <h3>GMSSS Kangoo</h3>
+                    <h3>
+                        GMSSS Kangoo
+                    </h3>
 
                     <p>
                         Secondary Education
@@ -875,6 +1156,7 @@ ok ajao<!DOCTYPE html>
 
         <div class="contact-decoration decoration-one"></div>
         <div class="contact-decoration decoration-two"></div>
+
 
         <div class="contact-content">
 
@@ -907,13 +1189,20 @@ ok ajao<!DOCTYPE html>
         <div class="contact-details">
 
             <a href="mailto:patyalsamiksha@gmail.com">
+
                 <i class="fa-solid fa-envelope"></i>
+
                 patyalsamiksha@gmail.com
+
             </a>
 
+
             <a href="tel:+919459711974">
+
                 <i class="fa-solid fa-phone"></i>
+
                 +91 9459711974
+
             </a>
 
         </div>
@@ -953,19 +1242,26 @@ ok ajao<!DOCTYPE html>
 
             <div class="footer-social">
 
-                <a href="https://github.com/SamikshaPatyal/S.portfolio" target="_blank">
+                <a href="https://github.com/SamikshaPatyal/S.portfolio"
+                    target="_blank"
+                    rel="noopener">
+
                     <i class="fa-brands fa-github"></i>
+
                 </a>
 
                 <a href="https://www.linkedin.com/in/samiksha-patyal-88679a379/"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener">
 
                     <i class="fa-brands fa-linkedin-in"></i>
 
                 </a>
 
                 <a href="mailto:patyalsamiksha@gmail.com">
+
                     <i class="fa-solid fa-envelope"></i>
+
                 </a>
 
             </div>
@@ -988,85 +1284,491 @@ ok ajao<!DOCTYPE html>
     </footer>
 
 
-    <!-- Back To Top -->
+    <!-- ================= BACK TO TOP ================= -->
 
-    <button id="backTop">
+    <button id="backTop" aria-label="Back to top">
+
         <i class="fa-solid fa-arrow-up"></i>
+
     </button>
 
 
+    <!-- ================= JAVASCRIPT ================= -->
+
     <script>
 
-        /* Preloader */
+        /* =========================================
+           PRELOADER
+        ========================================= */
 
         window.addEventListener("load", function () {
 
-            const loader = document.getElementById("preloader");
+            const preloader = document.getElementById("preloader");
 
-            setTimeout(() => {
-                loader.classList.add("hide");
-            }, 700);
+            if (!preloader) return;
 
-        });
+            setTimeout(function () {
+
+                preloader.classList.add("intro-active");
+
+            }, 3500);
 
 
-        /* Back To Top */
+            setTimeout(function () {
 
-        const backTop = document.getElementById("backTop");
+                preloader.classList.add("hide");
 
-        window.addEventListener("scroll", () => {
+                setTimeout(function () {
 
-            if (window.scrollY > 500) {
-                backTop.classList.add("show");
-            } else {
-                backTop.classList.remove("show");
-            }
+                    preloader.remove();
 
-        });
+                }, 800);
 
-        backTop.addEventListener("click", () => {
-
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
+            }, 7000);
 
         });
 
 
-        /* Navbar Scroll */
+        /* =========================================
+           MOBILE NAVBAR
+        ========================================= */
 
-        const sections = document.querySelectorAll("section");
-        const navLinks = document.querySelectorAll(".navbar nav a");
+        const menuBtn = document.getElementById("menu-btn");
+        const navbar = document.getElementById("navbar");
 
-        window.addEventListener("scroll", () => {
+        if (menuBtn && navbar) {
 
-            let current = "";
+            menuBtn.addEventListener("click", function () {
 
-            sections.forEach(section => {
+                navbar.classList.toggle("open");
 
-                const sectionTop = section.offsetTop - 150;
+                const icon = menuBtn.querySelector("i");
 
-                if (scrollY >= sectionTop) {
-                    current = section.getAttribute("id");
+                if (icon) {
+
+                    icon.classList.toggle("fa-bars");
+                    icon.classList.toggle("fa-xmark");
+
                 }
 
             });
 
-            navLinks.forEach(link => {
+
+            navbar.querySelectorAll("a").forEach(function (link) {
+
+                link.addEventListener("click", function () {
+
+                    navbar.classList.remove("open");
+
+                    const icon = menuBtn.querySelector("i");
+
+                    if (icon) {
+
+                        icon.classList.remove("fa-xmark");
+                        icon.classList.add("fa-bars");
+
+                    }
+
+                });
+
+            });
+
+        }
+
+
+        /* =========================================
+           TYPING EFFECT
+        ========================================= */
+
+        const typingText = document.getElementById("typing-text");
+
+        if (typingText) {
+
+            const words = [
+                "AI & ML Developer",
+                "Web Developer",
+                "Programmer",
+                "Problem Solver"
+            ];
+
+            let wordIndex = 0;
+            let charIndex = 0;
+            let deleting = false;
+
+
+            function typeEffect() {
+
+                const word = words[wordIndex];
+
+                if (deleting) {
+                    charIndex--;
+                } else {
+                    charIndex++;
+                }
+
+                typingText.textContent =
+                    word.substring(0, charIndex);
+
+
+                if (!deleting && charIndex === word.length) {
+
+                    deleting = true;
+
+                    setTimeout(typeEffect, 1400);
+
+                    return;
+
+                }
+
+
+                if (deleting && charIndex === 0) {
+
+                    deleting = false;
+
+                    wordIndex =
+                        (wordIndex + 1) % words.length;
+
+                }
+
+
+                setTimeout(
+                    typeEffect,
+                    deleting ? 50 : 100
+                );
+
+            }
+
+
+            typeEffect();
+
+        }
+
+
+        /* =========================================
+           SCROLL REVEAL
+        ========================================= */
+
+        const revealElements =
+            document.querySelectorAll(".reveal");
+
+
+        function revealOnScroll() {
+
+            revealElements.forEach(function (element) {
+
+                const position =
+                    element.getBoundingClientRect().top;
+
+                if (position < window.innerHeight - 80) {
+
+                    element.classList.add("show");
+
+                }
+
+            });
+
+        }
+
+
+        window.addEventListener(
+            "scroll",
+            revealOnScroll
+        );
+
+        revealOnScroll();
+
+
+        /* =========================================
+           ACTIVE NAVIGATION
+        ========================================= */
+
+        const sections =
+            document.querySelectorAll("section[id]");
+
+        const navLinks =
+            document.querySelectorAll(".navbar nav a");
+
+
+        function updateActiveNav() {
+
+            let currentSection = "";
+
+            sections.forEach(function (section) {
+
+                const sectionTop =
+                    section.offsetTop - 150;
+
+                const sectionBottom =
+                    sectionTop + section.offsetHeight;
+
+
+                if (
+                    window.scrollY >= sectionTop &&
+                    window.scrollY < sectionBottom
+                ) {
+
+                    currentSection =
+                        section.getAttribute("id");
+
+                }
+
+            });
+
+
+            navLinks.forEach(function (link) {
 
                 link.classList.remove("active");
 
-                if (link.getAttribute("href") === "#" + current) {
+
+                if (
+                    link.getAttribute("href") ===
+                    "#" + currentSection
+                ) {
+
                     link.classList.add("active");
+
                 }
 
             });
 
-        });
+        }
+
+
+        window.addEventListener(
+            "scroll",
+            updateActiveNav
+        );
+
+        updateActiveNav();
+
+
+        /* =========================================
+           BACK TO TOP
+        ========================================= */
+
+        const backTop =
+            document.getElementById("backTop");
+
+
+        if (backTop) {
+
+            window.addEventListener(
+                "scroll",
+                function () {
+
+                    if (window.scrollY > 500) {
+
+                        backTop.classList.add("show");
+
+                    } else {
+
+                        backTop.classList.remove("show");
+
+                    }
+
+                }
+            );
+
+
+            backTop.addEventListener(
+                "click",
+                function () {
+
+                    window.scrollTo({
+
+                        top: 0,
+                        behavior: "smooth"
+
+                    });
+
+                }
+            );
+
+        }
+
+
+        /* =========================================
+           COUNTERS
+        ========================================= */
+
+        const counters =
+            document.querySelectorAll(".counter");
+
+        let counterStarted = false;
+
+
+        function startCounters() {
+
+            const statsSection =
+                document.querySelector(".stats-section");
+
+
+            if (
+                counterStarted ||
+                !statsSection ||
+                statsSection.getBoundingClientRect().top >=
+                window.innerHeight - 100
+            ) {
+
+                return;
+
+            }
+
+
+            counterStarted = true;
+
+
+            counters.forEach(function (counter) {
+
+                const target =
+                    Number(counter.dataset.target);
+
+                let count = 0;
+
+
+                function updateCounter() {
+
+                    count += target / 60;
+
+
+                    if (count < target) {
+
+                        counter.textContent =
+                            Math.ceil(count);
+
+                        requestAnimationFrame(
+                            updateCounter
+                        );
+
+                    } else {
+
+                        counter.textContent =
+                            target + "+";
+
+                    }
+
+                }
+
+
+                updateCounter();
+
+            });
+
+        }
+
+
+        window.addEventListener(
+            "scroll",
+            startCounters
+        );
+
+        startCounters();
+
+
+        /* =========================================
+           CONTACT FORM
+        ========================================= */
+
+        const contactForm =
+            document.getElementById("contact-form");
+
+
+        if (contactForm) {
+
+            contactForm.addEventListener(
+                "submit",
+                function (event) {
+
+                    event.preventDefault();
+
+                    alert(
+                        "Thank you for contacting me! Your message has been received."
+                    );
+
+                    contactForm.reset();
+
+                }
+            );
+
+        }
+
+
+        /* =========================================
+           CARD POINTER EFFECT
+        ========================================= */
+
+        document.addEventListener(
+            "pointermove",
+            function (event) {
+
+                document.documentElement.style.setProperty(
+                    "--pointer-x",
+                    event.clientX + "px"
+                );
+
+
+                document.documentElement.style.setProperty(
+                    "--pointer-y",
+                    event.clientY + "px"
+                );
+
+
+                const interactive =
+                    event.target.closest(
+                        ".about-card, .skill-card, .certificate-card, .mini-project, .timeline-content"
+                    );
+
+
+                if (!interactive) return;
+
+
+                const bounds =
+                    interactive.getBoundingClientRect();
+
+
+                interactive.style.setProperty(
+                    "--card-x",
+                    event.clientX - bounds.left + "px"
+                );
+
+
+                interactive.style.setProperty(
+                    "--card-y",
+                    event.clientY - bounds.top + "px"
+                );
+
+            }
+        );
+
+
+        /* =========================================
+           HERO SLIDER
+        ========================================= */
+
+        const slides =
+            document.querySelectorAll(".hero-slider .slide");
+
+        let slideIndex = 0;
+
+
+        if (slides.length > 0) {
+
+            setInterval(function () {
+
+                slides[slideIndex].classList.remove("active");
+
+                slideIndex =
+                    (slideIndex + 1) % slides.length;
+
+                slides[slideIndex].classList.add("active");
+
+            }, 2500);
+
+        }
 
     </script>
 
 </body>
 
 </html>
+```
